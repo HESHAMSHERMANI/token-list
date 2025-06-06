@@ -1,9 +1,38 @@
 {
-  "chainId": 101,
-  "address": "8hubjFbWAVBMFaBxYMA1PwcmppgJf2NZBE5M6ypY5UHo",
-  "symbol": "DEGENXAI",
-  "name": "DEGENXAI Token",
-  "decimals": 9,
-  "logoURI": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/assets/main/logo.png",
-  "tags": ["community", "utility-token"]
+  "name": "Solana Token List",
+  "tags": {
+    "community": {
+      "name": "Community",
+      "description": "Tokens that are community driven or related."
+    },
+    "ai": {
+      "name": "AI",
+      "description": "AI-related utility tokens"
+    },
+    "utility-token": {
+      "name": "Utility Token",
+      "description": "Tokens used for platform utility"
+    }
+  },
+  "timestamp": "2025-06-06T00:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 101,
+      "address": "8hubjFbWAVBMFaBxYMA1PwcmppgJf2NZBE5M6ypY5UHo",
+      "symbol": "DEGENXAI",
+      "name": "DegenX AI",
+      "decimals": 9,
+      "logoURI": "https://raw.githubusercontent.com/HESHAMSHERMANI/assets/main/mainnet/8hubjFbWAVBMFaBxYMA1PwcmppgJf2NZBE5M6ypY5UHo/logo.png",
+      "tags": ["community", "ai", "utility-token"],
+      "extensions": {
+        "website": "https://degenx.ai",
+        "coingeckoId": ""
+      }
+    }
+  ]
 }
